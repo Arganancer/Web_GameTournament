@@ -1,0 +1,223 @@
+/*
+COLORS:
+	Light blue: #BDFCFD
+	Medium blue: #319ACB
+	Dark blue: #104A5F
+	Very Dark blue: #062e3d
+	Light red/pink: #FC9DA4
+	light yellow: #F5F9AA
+*/
+
+body {
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p, a, th, td, .inputtext, .button, .value {
+	font-family: 'Share Tech Mono', monospace;
+}
+
+#main { /* contains all divs */
+	width: 1024px;
+	margin: auto;
+}
+
+/* HEADERS STYLES */
+#header {
+	width: 100%;
+	height: 200px;
+	background-color: #062e3d;
+}
+
+	#logo {
+		float: left;
+		margin: none;
+		width: 200px;
+		height: 200px;
+	}
+	
+	#logo img {
+		float: left;
+	}
+	
+	#banner {
+		float: right;
+		width: 824px;
+	}
+	
+		#connection {
+			float: left;
+			height: 25px;
+			width: 100%;
+		}
+			#connection a {
+				color: #BDFCFD;
+				float : right;
+				padding-right: 10px;
+			}
+			
+			#connection p {
+				color: #BDFCFD;
+				margin: 0px;
+			}
+		
+		#image {
+			float: left;
+			margin: none;
+			height: 175px;
+			width: 100%;
+		}
+		
+		#imgimage {
+			float: left;
+		}	
+
+/* MENU STYLES */
+#menu {
+	width: 100%;
+	height: 25px;
+}
+	#menu a { /* menu button styles */
+		float: left;
+		color: #BDFCFD;
+		padding: 5px 18px;
+		text-decoration: none;
+		font-weight: bold;
+	}	
+	
+	#menu ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: black;
+	}	
+	
+	#menu .active a { /* menu button styles */
+		color: #FC9DA4; 
+	}	
+	
+	#menu a:hover { /* menu button styles */
+		color: #FC9DA4; 
+
+	}	
+
+/* CONTENT STYLES */
+#body {
+	width: 100%;
+	height: 500px;
+}
+	
+	#animatedbanner {
+		float: left;
+		width: 200px;
+		height: 100%;
+		background-color: yellow;
+	}
+	
+	#content {
+		float: right;
+		width: 824px;
+		height: 100%;
+		background-color: #062e3d;;
+	}
+	
+	/* CONFIRMATION STYLE */
+	.confirmation {
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+	.greeting {
+		color: #BDFCFD;
+		margin: 20px;
+	}
+	
+	#motherboard {
+		font-size: 18px;
+		color: #FC9DA4;
+	}
+	
+/* FOOTER STYLES */
+#footer {
+	width: 100%;
+	height: 150px;
+	background-image : url(../img/footer.png);
+}
+
+/* FORM STYLES */
+.value {
+	background-color : #BDFCFD;
+	font-weight: bold;
+}
+
+.button {
+	margin : auto;
+	display: block;
+	background-color : #BDFCFD;
+	font-weight: bold;
+}
+
+#resultatrecherche {
+	border : 1px solid black;
+	overflow-y: auto;
+	text-align : left;
+    border-collapse: collapse;
+	background-color :white;
+}
+
+#resultatrecherche th {
+	background-color : #062e3d;
+	color: #BDFCFD;
+	text-align :left;
+	border: 1px solid #BDFCFD;
+	padding: 10px;
+}
+
+#resultatrecherche td {
+		border : 1px solid black;
+		padding: 5px;
+}
+
+#resultatrecherche tr:nth-child(even) {
+	background-color : #BDFCFD 
+}
+
+#resultatrecherche tr:nth-child(odd) {
+	background-color : #319ACB
+}
+
+#resultatrecherche tr:hover {
+	background-color: #FC9DA4
+}
+
+.formtable {
+	margin: auto;	
+	margin-top: 100px;
+	width: 550px;
+	height: 250px;
+	border: 3px solid #BDFCFD;
+	background-color: #104A5F; 
+	color: #BDFCFD;
+}
+
+.inputtext {
+	background-color : #BDFCFD;
+}
+
+.formtable th {
+	width:100%;
+}
+
+/* OTHER */
+.clear {
+	clear: both; /* this ends floating blocks */
+}
+
+.error {
+	color: red;
+}
